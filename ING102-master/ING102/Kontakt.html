@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stil.css">
+    <meta charset="UTF-8">
+    <title>Kontakt oss</title>
+</head>
+<body>
+<div class="navbar_ul">
+    <ul>
+        <div class="navbar_li">
+            <li><a href="Velkommen.html">Hjem</a></li>
+            <li><a href="Beskrivelse.html">Prosjektbeskrivelse</a></li>
+            <li><a href="Kontakt.html">Kontakt oss</a></li>
+        </div>
+    </ul>
+</div>
+<div class="all">
+
+<h1> Kontakt oss gjerne her hvis du lurer på noe!</h1>
+
+<div class="container">
+<form id="Kontaktskjema" action="action_page.php">
+
+    <label for="fornavn">Navn</label>
+    <input type="text" id="fornavn" name="navn" placeholder="Ditt navn..">
+
+    <label for="etternavn">Etternavn</label>
+    <input type="text" id="etternavn" name="Etternavn" placeholder="Etternavn">
+
+    <label for="land">Land</label>
+    <select id="land" name="Land">
+        <option value="Norge">Norge</option>
+        <option value="Sverige">Sverige </option>
+        <option value="Danmark"> Danmark </option>
+    </select>
+
+    <label for="melding">Melding</label>
+    <textarea id="melding" name="melding" placeholder="Skriv her." style="height:200px"></textarea>
+
+    <input type="button" onclick="myFunction()"  value="Send">
+
+</form>
+    <script>
+        function myFunction() {
+            document.getElementById("Kontaktskjema").submit();
+        }
+    </script>
+</div>
+</div>
+
+</body>
+</html>
