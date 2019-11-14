@@ -6,12 +6,12 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 10px;
+    margin: 1px;
     padding: 10px;
     overflow: hidden;
     background-color: grey;
     position: fixed;
-    top:5px;
+    top: 27px;
 
 }
 
@@ -37,11 +37,12 @@ img {
 
 .row {
     display: flex;
+    margin: 50px;
 }
 
 .column {
     flex: 16.66%;
-    padding: 1px;
+    padding: 5px;
 }
 
 
@@ -151,20 +152,49 @@ h2 {
     bottom:40px;
     font-size: 10px;
 }
-.vid {
-    position:absolute;
-    top:800px;
-    right:450px;
+vid {
+    display: flex;
+    float: right;
 }
 article {
 
 
 margin: 0 auto;
 padding: 20px 15px;
-max-width: 800px;
+    height: 2000px;
+max-width: 1080px;
 background: cornflowerblue;
 box-sizing: border-box;
 }
+
+.container{
+display: flex;
+    width: 70%
+}
+
+.inline-block {
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+sidebar{
+    width: 30%;
+}
+
+header {
+    background: #fdcd3b;
+    width:70%;
+    float: right;
+}
+
+section {
+    background: red;
+    width:70%;
+    float: right;
+}
+
 @media only screen and (max-width: 900px) {
     article {
         font-size:20px;
