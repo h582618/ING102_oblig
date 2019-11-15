@@ -101,6 +101,11 @@ img {
 
 }
 
+h4{
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+}
 
 h1 {
     text-align: center;
@@ -266,6 +271,30 @@ container{
 .navbar_M{
     visibility: hidden;
     list-style-type: none;
+}
+
+.Insta{
+    width: 900%;
+}
+
+.EtkarSnap{
+    width: 900%;
+}
+
+.YouTube{
+    width: 900%;
+}
+
+.Twitter{
+    width: 900%;
+}
+
+.SnapMatias{
+    width: 900%;
+}
+
+.InstaEven{
+    width: 300%;
 }
 
 sidebar{
