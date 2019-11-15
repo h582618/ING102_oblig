@@ -1,19 +1,67 @@
 body {
-    background-image: linear-gradient(to bottom right, grey, whitesmoke);
+    background: linear-gradient(to top, #000000 0%, #808080 100%);
     height: 100%;
 }
 
+besk {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    float: right;
+    width: 79%;
+    border: 2px solid orangered;
+    border-radius: 25px;
+}
 
 ul {
-    list-style-type: none;
-    margin: 1px;
-    padding: 10px;
-    overflow: hidden;
-    background-color: grey;
+
     position: fixed;
-    top: 27px;
+    list-style-type: none;
 
 }
+
+.dropbtn {
+    background-color: orangered;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px;
+    border-radius: 25px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: orange;}
 
 
 li a {
@@ -22,10 +70,14 @@ li a {
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: orangered;
 }
 
 
@@ -44,6 +96,9 @@ img {
     padding: 5px;
     text-align: center;
 
+    font-family: "Arial Black";
+    text-decoration: underline;
+
 }
 
 
@@ -52,36 +107,53 @@ h1 {
     color: black;
 }
 
+h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: xx-large;
+}
+
 .bilder {
     width: 400px;
     height: 400px;
     background-color: blue;
     position: relative;
-    left: 350px;
+    left: 270px;
 
 }
 
 
 .medier {
+
+    width: 150px;
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
     display: flex;
     width: 20%;
     height: 20%;
     position: relative;
     left: 52%;
     top: -400px;
+
 }
 
 
 .info {
     font-family: Serif;
-    width: 600px;
+    width: 43%;
     font-size: 13px;
     color: black;
-    background-color: ghostwhite;
+    background-color: grey;
     position: relative;
-    left: 780px;
+    left: 680px;
     bottom: 400px;
     padding: 10px;
+    border: 2px orangered;
+    border-radius: 25px;
 
 }
 
@@ -96,6 +168,8 @@ h2 {
 
 .klokken {
     position: relative;
+    right: 0px;
+    top: 0px;
 }
 
 .download {
@@ -134,7 +208,7 @@ h2 {
     background-color: coral;
     border: none;
     color: white;
-    padding: 5px 32px;
+
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -148,30 +222,31 @@ h2 {
 }
 
 .tekst {
-    margin:400px;
-    background-color: black;
     text-align: center;
     position: static;
-    bottom:40px;
-    font-size: 10px;
+    font-size: 20px;
 }
-vid {
-    display: flex;
-    float: right;
+.vid {
+    position: relative;
+    display: inline;
+    left: 0.129622963%;
 }
 article {
-
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    background: #808080;
 
 margin: 0 auto;
 padding: 20px 15px;
     height: 2000px;
 max-width: 1080px;
-background: cornflowerblue;
 box-sizing: border-box;
 }
 
 container{
-    float:right;
+
+    float: right;
     width: 70%;
 }
 
@@ -188,6 +263,11 @@ container{
     box-sizing: border-box;
 }
 
+.navbar_M{
+    visibility: hidden;
+    list-style-type: none;
+}
+
 sidebar{
     width: 30%;
 }
@@ -197,7 +277,6 @@ header {
 }
 
 section {
-    background: red;
 
 }
 
@@ -220,6 +299,23 @@ section {
 
 
     }
+
+
+    section{
+        display: block;
+    }
+
+    .navbar_ul{
+visibility: hidden;
+    }
+
+    .navbar_M{
+        visibility: visible;
+    }
+
+    container{
+        width: 100%;
+
     aside {
         background-color: red;
         display: inline-block;
@@ -230,6 +326,7 @@ section {
         width: 20%;
         position: relative ;
         left: 300px;
+
     }
 code  {
     display: inline-block;
@@ -243,6 +340,8 @@ code  {
 pre {
     background-color: white;
 }
+
+
 .matBilder {
     width: 100%;
     height: 30%;
