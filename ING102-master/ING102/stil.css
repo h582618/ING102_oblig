@@ -84,7 +84,6 @@ li a:hover {
 img {
     width: 100%;
     height: 100%;
-
 }
 
 .row {
@@ -96,8 +95,10 @@ img {
     flex: 16.66%;
     padding: 5px;
     text-align: center;
+
     font-family: "Arial Black";
     text-decoration: underline;
+
 }
 
 
@@ -124,13 +125,22 @@ h3 {
 
 
 .medier {
+
     width: 150px;
     height: 60px;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    display: flex;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 52%;
+    top: -400px;
+
 }
+
 
 .info {
     font-family: Serif;
@@ -235,9 +245,15 @@ box-sizing: border-box;
 }
 
 container{
-width: 70%;
-    float: right;
 
+    float: right;
+    width: 70%;
+}
+
+.matContainer {
+    float:right;
+    width: 70%;
+    background-color: grey;
 }
 
 .inline-block {
@@ -266,10 +282,24 @@ section {
 
 @media only screen and (max-width: 900px) {
     article {
-        font-size:20px;
+        font-size: 20px;
+    }
+     code {
+         font-size: 50%;
+         position:relative;
+         max-width: 90%;
+
+     }
+
+     iframe {
+         width: 50%;
+         height: 50%;
+     }
+
 
 
     }
+
 
     section{
         display: block;
@@ -285,6 +315,68 @@ visibility: hidden;
 
     container{
         width: 100%;
+
+    aside {
+        background-color: red;
+        display: inline-block;
+        visibility: hidden;
+   }
+    .row {
+        display:inline-block;
+        width: 20%;
+        position: relative ;
+        left: 300px;
+
     }
+code  {
+    display: inline-block;
+    float:right;
+    padding-right: 5%;
+    padding-top:5% ;
+    margin: auto;
+
+
+}
+pre {
+    background-color: white;
+}
+
+
+.matBilder {
+    width: 100%;
+    height: 30%;
+    padding-top: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    position: relative;
+    flex-direction:row-reverse;
+    top:20px;
+
+
+}
+.BilderMatC {
+    float: left;
+    width: 30%;
+}
+headerMat {
+    font-family: "Engravers MT";
+
+}
+.matVid {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: grey;
+}
+iframe  {
+    position: relative;
+    left: 25%;
+}
+.knapp1 {
+    position: relative;
+    top:10px;
+    border-radius: 100%;
+    color: white;
+    background-color: grey;
 }
 
