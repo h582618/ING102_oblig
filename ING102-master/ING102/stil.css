@@ -4,12 +4,14 @@ body {
 }
 
 besk {
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
     float: right;
     width: 79%;
-    border: 2px solid orangered;
+    color: black;
     border-radius: 25px;
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
 }
 
 ul {
@@ -137,12 +139,6 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    display: flex;
-    width: 20%;
-    height: 20%;
-    position: relative;
-    left: 52%;
-    top: -400px;
 
 }
 
@@ -193,16 +189,7 @@ h2 {
     padding: 10px;
     padding-bottom: 120px;
 }
-.knapper {
-    margin:10px;
-    padding:10px;
-    background-color: grey;
-    text-align: center;
-    top:5px;
-    right:50px;
-    float:left;
-    position:fixed;
-}
+
 
 .downloads {
     -webkit-transition-duration: 0.4s;
@@ -234,7 +221,8 @@ h2 {
 .vid {
     position: relative;
     display: inline;
-    left: 0.129622963%;
+    margin-left: -20%;
+    padding:5%;
 }
 article {
     border-radius: 25px;
@@ -271,6 +259,8 @@ container{
 .navbar_M{
     visibility: hidden;
     list-style-type: none;
+    position: absolute;
+    top:0px;
 }
 
 .Insta{
@@ -303,9 +293,16 @@ sidebar{
 
 header {
 
+
 }
 
 section {
+    background-color: lightgrey;
+
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+
 
 }
 
@@ -327,11 +324,13 @@ section {
 
 
 
-    }
+
 
 
     section{
         display: block;
+        position: relative;
+
     }
 
     .navbar_ul{
@@ -340,10 +339,12 @@ visibility: hidden;
 
     .navbar_M{
         visibility: visible;
+        position: relative;
     }
 
-    container{
+    container {
         width: 100%;
+    }
 
     aside {
         background-color: red;
@@ -357,12 +358,13 @@ visibility: hidden;
         left: 300px;
 
     }
+}
 code  {
     display: inline-block;
     float:right;
     padding-right: 5%;
-    padding-top:5% ;
     margin: auto;
+    font-size: 10px;
 
 
 }
@@ -402,10 +404,20 @@ iframe  {
     left: 25%;
 }
 .knapp1 {
-    position: relative;
-    top:10px;
-    border-radius: 100%;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    border-radius: 25px;
     color: white;
     background-color: grey;
+    border: 2px solid black;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    list-style-type: none;
+    
+}
+
+.knapp1:hover {
+    background-color: orangered;
 }
 
