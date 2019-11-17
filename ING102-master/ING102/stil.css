@@ -115,10 +115,8 @@ h1 {
 }
 
 h3 {
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
-    font-size: xx-large;
+    text-align: left;
+    font-size: large;
 }
 
 .bilder {
