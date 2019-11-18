@@ -104,8 +104,8 @@ img {
 }
 
 h4{
-    font-size: xx-large;
-    text-align: center;
+    font-size: large;
+    text-align: left;
     color: black;
 }
 
@@ -116,6 +116,7 @@ h1 {
 
 h3 {
     text-align: left;
+    color: black;
     font-size: large;
 }
 
@@ -146,13 +147,14 @@ h3 {
     width: 43%;
     font-size: 13px;
     color: black;
-    background-color: grey;
+    background-color: lightgrey;
     position: relative;
     left: 680px;
     bottom: 400px;
     padding: 10px;
     border: 2px orangered;
     border-radius: 25px;
+
 
 }
 
