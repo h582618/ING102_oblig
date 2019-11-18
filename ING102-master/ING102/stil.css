@@ -320,8 +320,16 @@ section {
      iframe {
          width: 50%;
          height: 50%;
+
      }
 
+     .vid {
+         position: relative;
+         display: inline;
+         margin-left: -20%;
+         padding:5%;
+         padding-left: 17%;
+     }
 
 
 
@@ -354,8 +362,12 @@ visibility: hidden;
     .row {
         display:inline-block;
         width: 40%;
-        position: relative ;
+
+    }
+    .column {
+        position: relative;
         left: 25%;
+        width: 150px;
 
     }
 }
